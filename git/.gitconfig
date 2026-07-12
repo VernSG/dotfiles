@@ -1,0 +1,26 @@
+[user]
+	name = Muhammad Yusuf
+	email = 68459009+VernSG@users.noreply.github.com
+	signingkey = 6E07BD05200340D7
+[alias]
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	r = revert --signoff
+	rs = reset --hard
+	l = log
+	s = status
+	ps = push -f -u
+	ra = remote add
+	cp = cherry-pick --signoff
+	cma = commit --amend
+[core]
+	editor = nano
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
