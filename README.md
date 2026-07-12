@@ -231,13 +231,3 @@ GNU Stow creates symlinks from a package directory into a target directory (`$HO
 
 ---
 
-## 📸 Screenshots
-
-<!-- Add your terminal screenshots here -->
-<!-- ![Terminal](screenshots/terminal.png) -->
-
----
-
-## 📄 License
-
-These are my personal dotfiles. Feel free to use them as inspiration for your own.
